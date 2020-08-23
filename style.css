@@ -16,21 +16,37 @@ body {
     text-align: center;
     font-size: 56px;
     padding: 20px 0;
+    transition-duration: .8s;
+}
+
+.title:hover {
+    color: purple;
 }
 
 .text {
     font-size: 26px;
+    color: #fff;
+    transition-duration: .8s;
+}
+
+.text:hover {
+    color: #000;;
 }
 
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    background: linear-gradient(to bottom, red, green);
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 128, 0, 0.5));
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to right, rgba(232,232,232,1) 0%,rgba(213,119,239,1) 24%,rgba(198,9,183,1) 50%,rgba(213,119,239,1) 79%,rgba(232,232,232,1) 100%);
-    border-radius: 10px;
+    background-color: grey;
+    border-radius: 6px;
+    transition-duration: 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: black;
 }
