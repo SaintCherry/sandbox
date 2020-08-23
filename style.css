@@ -23,14 +23,14 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 30px;
+    width: 20px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: lightgrey;;
+    background: linear-gradient(to bottom, red, green);
 }
 
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(to right, rgba(232,232,232,1) 0%,rgba(213,119,239,1) 24%,rgba(198,9,183,1) 50%,rgba(213,119,239,1) 79%,rgba(232,232,232,1) 100%);
-    border-radius: 15px;
+    border-radius: 10px;
 }
