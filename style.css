@@ -1,7 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    height: 1200px;
-    width: 80%;
+    height: 2000px;
+    width: 75%;
     margin: 0 auto;
+    border: 5px solid lightgrey;
+
+    padding: 0 60px;
+    font-family: Tahoma, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 56px;
+    padding: 20px 0;
+}
+
+.text {
+    font-size: 26px;
 }
 
 ::-webkit-scrollbar {
