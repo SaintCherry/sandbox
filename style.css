@@ -1,15 +1,18 @@
 .container {
     height: 1200px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 30px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: rgba(6, 122, 88, 0.5);
+    background-color: rgba(6, 27, 122, 0.212);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(104, 136, 53);
+    background: linear-gradient(to right, rgba(232,232,232,1) 0%,rgba(213,119,239,1) 24%,rgba(198,9,183,1) 50%,rgba(213,119,239,1) 79%,rgba(232,232,232,1) 100%);
+    border-radius: 15px;
 }
