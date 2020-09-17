@@ -6,3 +6,7 @@ $(document).ready(function () {
         $(".frame-two").toggle(400);
     });
 });
+
+$(document).ready(function () {
+    
+});
